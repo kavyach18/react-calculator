@@ -1,0 +1,67 @@
+body {
+  margin: 0; /*removes the default margin*/
+  display: flex;
+  justify-content: center; /* Centers the calculator horizontally */
+  align-items: center;  /* Centers the calculator vertically */
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+}
+
+#calculator { /*This block of code is used to style the components in calculator*/
+  font-family: Arial, sans-serif; /*Sets font for the Calculator*/
+  background-color: hsl(0, 0%, 15%);
+  border-radius: 15px;
+  width: 260px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display { /*This block of code is used to style the display where the input value of the calculator is displayed*/
+  width: 100%;
+  padding: 10px;
+  font-size: 2rem;
+  text-align: right;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  margin-bottom: 10px;
+}
+
+#keys { /*This code is used to style the values inside the calculator like numbers and operations*/
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates a 4 column grid */
+  gap: 10px;
+}
+
+button { /*This block of code is used to style the buttons*/
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 40%);
+}
+
+button:active {
+  background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn { /*This block of code is used to style the arthimetic operation buttons*/
+  background-color: hsl(35, 100%, 55%);
+}
+
+.operator-btn:hover {
+  background-color: hsl(35, 100%, 65%);
+}
+
+.operator-btn:active {
+  background-color: hsl(35, 100%, 75%);
+}
