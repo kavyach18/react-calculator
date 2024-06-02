@@ -4,12 +4,12 @@ The Calculator app will perform arthimetic operations like addition,subtraction,
 
 ## Programming languages Used
 
-JavaScript
-CSS
+- JavaScript
+- CSS
 
 ### Commands to run the project
-cd calculator-app
-npm start 
+- cd calculator-app
+- npm start 
 
 ### `npm start`
 
